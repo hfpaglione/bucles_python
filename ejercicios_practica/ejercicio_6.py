@@ -22,7 +22,15 @@ fin = int(input('Ingrese el último número de la secuencia\n'))
 cantidad_numeros_positivos = 0  # Inicializo el contador en 0
 
 # for ... in range(....)
-
+for x in range (inicio,fin):
+    if x < 0 :
+        negativos = [x]
+        print('los numeros negativos son', negativos )
+    elif x >= 0 :
+        positivos = [x]
+        print('los numeros positivos son:', positivos )
+        
 # Imprimir el valor de la cantidad de números positivos y negativos
+    
 
 print("terminamos!")
