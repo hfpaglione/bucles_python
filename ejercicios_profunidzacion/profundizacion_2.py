@@ -32,6 +32,6 @@ se ingrese la palabra "FIN", en ese momento debe terminar el programa
 Se debe debe imprimir un cartel de error si el operador ingresado no es
 alguno de lo soportados o no es la palabra "FIN".
 '''
-
+suma = 0
 print("Mi Calculadora (^_^)")
 # Empezar aquí la resolución del ejercicio
