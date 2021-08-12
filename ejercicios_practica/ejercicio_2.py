@@ -23,5 +23,7 @@ for color in colores:
 # como parámetro y utilizar el índice para acceder a
 # los elementos de la lista
 # for i ...
-
+for i in range (len(colores)):
+    print('el indice ',i,'en la lista colores es:',colores[i])
+    
 print("terminamos!")

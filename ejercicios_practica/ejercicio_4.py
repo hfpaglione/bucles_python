@@ -24,10 +24,11 @@ while x < 10 and x != 6:
 # "while" consultar si <x es igual a 6>, y en ese caso realizar una interrupción del bucle
 # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
 # e imprimir en pantalla el resultado de X (antes de incrementar) con print
+x = 0
 while x < 10:
     if x == 6:
-        print('bucle interrumpe en x=', x)
         break
-        x += 2
+    print('el bucle se interrumpe en:',x)
+    x += 2
 
 print("terminamos!")
